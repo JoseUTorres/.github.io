@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #416D60;
+	margin: 0 auto;
+}
+
+#content {
+	height:100%;
+	width: 100%;
+	min-height: 500px;
+	display:block;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+
+/*--- top panel ---*/
+#toppanel {
+    vertical-align: middle;
+	margin-left:auto;
+	margin-right:auto;
+	width: 800px;
+}
+
+#toppanel h1 {
+	color: #bad7f2;
+	font-size: 51px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+	margin: 20px 0px 0 0;
+	text-shadow: 0px 3px 8px #2a2a2a;
+	text-decoration: none;
+	font: 60px Helvetica, Arial, Sans-Serif;
+}
+
+#toppanel #nav {
+	font-family: Gill Sans, Verdana;
+	font-size: 11px;
+	line-height: 14px;
+	text-transform: uppercase;
+	text-align:right;
+	letter-spacing: 2px;
+	font-weight: bold;
+	margin-top: 8px;
+	color: #f7d9c4;
+	float: right;
+}
+
+#toppanel #nav a {
+	color: #f7d9c4;
+	text-decoration: none;
+}
+
+#toppanel #nav a:hover {
+	color: #999;
+	text-decoration: none;
+}
+
+/*--- content panel ---*/
+#contentpanel {
+	font-family: Tahoma, Helvetica, Arial, Sans-Serif;
+    vertical-align: middle;
+	margin: 50px auto 0 auto;
+	width: 800px;
+	color: #777;
+}
+
+#contentpanel #date {
+	font-family: Gill Sans, Verdana;
+	font-size: 11px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	margin-top: 8px;
+	color: #faedcb;
+}
+
+#contentpanel #note {
+	font-family: Gill Sans, Verdana;
+	font-size: 9px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	margin-top: 8px;
+	color: #dbcdf0;
+}
+
+#contentpanel a {
+	color: #eee;
+	text-decoration: none;
+}
+
+#contentpanel a:hover {
+	color: #999;
+	text-decoration: none;
+}
+
+#contentpanel li {
+	font: 28px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: left;
+	list-style: none;
+	color: #e2cfc4;
+	text-shadow: 0px 2px 3px #555;
+	margin-top: 25px;
+}
+
+#contentpanel li:not(:first-child) {
+	margin-top: 60px;
+}
+
+#contentpanel b {
+	color: #f2bac9;
+}
+
+/*--- left panel ---*/
+#leftpanel {
+	display: table-cell;
+    vertical-align: middle;
+	float: left;
+	height: 100%;
+	width: 50%;
+}
+
+#leftpanel h1 {
+	text-decoration: none;
+	font: 60px Helvetica, Arial, Sans-Serif;
+	color: #bad7f2;
+	text-shadow: 0px 3px 8px #2a2a2a;
+	text-align: right;
+	margin: 180px 10px 0 0;
+}
+#leftpanel h2 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+	line-height: 14px;
+	text-transform: uppercase;
+	text-align: right;
+	letter-spacing: 2px;
+	font-weight: bold;
+	margin-top: 8px;
+	color: #baf2e9;
+	float: right;
+	margin: 15px 10px 0 0;
+}
+
+/*--- right panel ---*/
+#rightpanel {
+
+	float: left;
+	height: 100%;
+	width: 50%;
+}
+
+#rightpanel a {
+	color: #f2bac9;
+	text-decoration: none;
+}
+
+#rightpanel a:hover {
+	color: #999;
+	text-decoration: none;
+}
+
+#rightpanel ul {
+	margin: 210px 0 0 10px;
+}
+
+#rightpanel li {
+	font: 28px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: left;
+	list-style: none;
+	padding-bottom: 10px;
+	color: #222;
+	text-shadow: 0px 2px 3px #555;
+}
+
+/*-- space --*/
+#space {
+	min-height:50px;
+}
+
+#description {
+    color: #f2bac9;
+}
