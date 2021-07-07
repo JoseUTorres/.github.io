@@ -12,8 +12,6 @@ body {
 	min-height: 500px;
 	display:block;
 	position:absolute;
-	top: 0;
-	left: 0;
 }
 
 /*--- top panel ---*/
@@ -150,7 +148,6 @@ body {
 
 /*--- right panel ---*/
 #rightpanel {
-
 	float: left;
 	height: 100%;
 	width: 50%;
@@ -186,4 +183,17 @@ body {
 
 #description {
     color: #f2bac9;
+}
+
+.profile-img {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	border: 5px solid #f2bac9;
+	background-position: center center;
+	background-size: cover;
+}
+
+#clear {
+    clear: both;
 }
