@@ -8522,10 +8522,18 @@ a:hover {
  background-color:#0085ec;
  color:#fff
 }
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
 .hr-short {
  width:25%;
  margin:40px auto;
- border-top:2px solid #0085ec
+ border-top:2px solid #E43A78
 }
 .drop-cap:first-letter {
  float:left;
@@ -8737,7 +8745,7 @@ pre {
  margin:10px 0 0
 }
 .about strong {
- color:#0085ec
+ color:#E43A78
 }
 .about-container {
  padding:100px 30px 50px
@@ -9344,7 +9352,7 @@ article.post .date {
  left:0;
  opacity:1;
  background-size:400% 400%;
- background-image:linear-gradient(230deg,#E22C70,#E74B84,#E95D91);
+ background-image:linear-gradient(230deg,#E22C70,#06595E);
  transition:transform .5s cubic-bezier(.42,0,.58,1)
 }
 .home .gradient-visible {
