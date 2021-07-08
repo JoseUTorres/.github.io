@@ -1,47 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Jose U. Torres</title>
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="res/kirb.ico">
     <link rel="stylesheet" href="css/index.css">
-
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <title>Jose U. Torres</title>
+    
 </head>
-
 <body>
-    <div id="content">
-        <div id="leftpanel">
-            <h1>Jose U.<br>Torres</h1>
-            <h2>California State University Sacramento
-                <br> B.S Computer Science
-                <br> Minor Mathematics
-                <br> Class of 2022
-            </h2>
-        </div>
-        <div id="rightpanel">
-            <ul id="nav">
-                <li>
-                    <a href="projects.html">Projects</a>
-                </li>
-                <li>
-                    <a href="res/Jose_Torres_Resume.pdf" target="_blank">Resume</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-            </ul>
-        </div>
-        <div style="padding-top: 50px;">
-            <div class="profile-img" style="background-image: url('res/profilepic.jpg'); display:block; margin-left: auto; margin-right: auto;"></div>
-        </div>
-        <img src="res/kriby sleeping.gif" alt="footer img" style="position: fixed; bottom: 0; right: 0; width: 200px; height: 200px;">
-        <div id="clear"></div>
-    </div>
 
-    <script src="js/screen.js"></script>
+    <main class="home">
+        <img class="image img-cover" src="res/pink tree.png" alt="cover image" onload="fadeIn(this)" style="display: block;">
+        <div class="gradient fadeInCover"></div>
+        <div class="home-content-container">
+            <h1 class="cover-text-home fadeInUpDelayed">JOSE U. TORRES</h1>
+            <nav class="home-navigation link-brackets">
+                <ul>
+                    <li class="home-navigation-li fadeInUpDelayed" style="animation-delay: .5s">
+                        <a href="pages/projects.html">PROJECTS</a>
+                    </li>
+                    <li class="home-navigation-li fadeInUpDelayed" style="animation-delay: 1s">
+                        <a href="res/Jose_Torres_Resume.pdf">RESUME</a>
+                    </li>
+                    <li class="home-navigation-li fadeInUpDelayed" style="animation-delay: 1.5s">
+                        <a href="pages/about.html">ABOUT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+
 </body>
-
 </html>
