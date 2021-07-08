@@ -1,97 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jose U Torres | Projects</title>
-    <link rel="icon" href="/favicon.ico">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="../res/kirb.ico">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <title>Jose U. Torres | Projects</title>
+    
 </head>
+<body style="background: #06595E">
 
-<body>
-    <div id="content">
-        <div id="toppanel">
-            <h1>
-                Projects
-                <p id="nav">
-                    <a href="index.html">Home</a>
-                    <br>
-                    <a href="Jose_Torres_Resume.pdf" target="_blank">Resume</a>
-                    <br>
-                    joseutorres@csus.edu
-                </p>
-            </h1>
-            <hr>
-        </div>
-        <div id="contentpanel">
-           <ul>
-               <li>
-                   CKI Discord Bot
-                   <a href="https://github.com/JoseUTorres/CKI-Discord-BOT">
-                    <span id="note">Github Repository</span>
-                   </a>
-               </li>
-               <p id="date">
-                  2021 
-               </p>
-               <p id="description">
-                   A bot service that is used by members of
-                   the Circle K International at Sacramento Discord
-                   server. Discord is a place for members to talk over
-                   voice, video, and text. Our club will use it to
-                   make announcments or host online events. My bot
-                   provides members with the ability to play music in
-                   the voice channel but the main use of the bot is to
-                   provide resources and information for members. Users
-                   enter a command such as "+hours Torres, Jose" and this will
-                   bring up the user's service, leadership, and fellowship hours
-                   they have gathered in the club.
-               </p>
-               <p id="description">
-                   Major technologies used are <strong>Python</strong>, <strong>Wavelink</strong>, <strong>XLSReader</strong>, <strong>Discord API</strong>, and <strong>Spotify API</strong>.
-               </p>
-           </ul>
-           <ul>
-            <li>
-                UTAPS Commute Options Website
-                <a href="https://github.com/Just-Don-t-Know-JDK/CSUS-Commute-Options-JDK">
-                 <span id="note">Github Repository</span>
-                </a>
-            </li>
-            <p id="date">
-               2020 
-            </p>
-            <p id="description">
-                A website created for the University Transport and Parking Services.
-                The purpose of the website is to help show student's alternative commute options
-                in order to improve transportation and parking at the university.
-            </p>
-            <p id="description">
-                Major technologies used are <strong>HTML</strong>, <strong>CSS</stong>, <strong>Node.js</strong>, and <strong>Google Maps API</strong>.
-            </p>
-        </ul>
-        <ul>
-            <li>
-                Wave (Game)
-                <a href="https://github.com/JoseUTorres/Wave">
-                 <span id="note">Github Repository</span>
-                </a>
-            </li>
-            <p id="date">
-               2020 
-            </p>
-            <p id="description">
-                A game built using Java. The game implements normal game functions such as music, pausing,
-                and levels. The game was built as a simple project but enforced my object-oriented programming
-                skills by using abstraction and the other attributes to OOP.
-            </p>
-            <p id="description">
-                Major technologies used are <strong>Java</strong> and <strong>Eclipse</strong>.
-            </p>
-        </ul>  
-        </div>
-    </div>
+    <header class="container-fluid hero vertical-container header-standard image-cover" style="background-image: url('../res/pink tree.png');">
+        <nav class="main-nav overlay clearfix" role="navigation">
+            <span class="pull-left">
+                <a class="menu-button icon-menu" href="../index.html">Home</a>
+                <span class="nav-buttons-mobile"></span>
+            </span>
+            <span class="pull-right">
+                <a class="menu-button icon-menu" href="about.html">About</a>
+                <a class="menu-button icon-menu" href="projects.html">Projects</a>
+                <a class="menu-button icon-menu" href="Jose_Torres_Resume.pdf">Resume</a>
+            </span>
+        </nav>
+        <section class="image-header-text container text-center vertical-middle">
+            <h1>Projects</h1>
+        </section>
+        <div class="image-overlay bg-pink-green"></div>
+    </header>
+    <article class="post">
+        <section class="container-fluid projects">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 project">
+                    <a href="ckidiscordbot.html">
+                        <div class="css-device css-device--browser" data-url="CKI Discord Bot">
+                            <img class="css-device__image" src="../res/ckibotproject.png" alt="oops">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 project">
+                    <a href="utapswebsite.html">
+                        <div class="css-device css-device--browser" data-url="UTAPS Website">
+                            <img class="css-device__image" src="../res/ckibotproject.png" alt="oops">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </article>
+
 </body>
-
 </html>

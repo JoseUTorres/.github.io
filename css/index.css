@@ -136,6 +136,10 @@ table {
  background-color:#292484;
  background-image:linear-gradient(135deg,#292484,#862715)
 }
+.bg-pink-green{
+    background-color: #E43A78;
+    background-image: linear-gradient(135deg, #E43A78, #06595E)
+}
 .bg-purple-red-radial {
  background:radial-gradient(center,circle cover,#461532 0,#222 100%);
  background-color:#461532
